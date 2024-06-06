@@ -1,0 +1,60 @@
+.joke-container {
+  background-color: #213abac2;
+  border: 1px solid #150d01e0;
+  border-radius: 10px;
+  padding: 20px;
+  width: 70%;
+  box-shadow: 0 5px 9px rgba(8, 41, 190, 0.811);
+  margin: 20px auto;
+  transition:
+      transform 0.3s ease,
+      box-shadow 0.3s ease;
+}
+.joke-container:hover {
+  background-color: #160b7c62;
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(51, 71, 171, 0.77);
+}
+.joke-container h3 {
+  margin-top: 0;
+  color: #1C18A6;
+}
+.joke-container p {
+  margin: 0;
+  color: white;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.flags {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+.flags button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+}
+.flags button.red {
+  background-color: #E74C3C;
+  color: white;
+}
+.flags button.green {
+  background-color: #2ECC71;
+  color: white;
+}
+.flags button:hover {
+  transform: scale(1.1);
+}
+.green {
+  color: #2ECC71;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.red {
+  color: #E74C3C;
+  font-weight: bold;
+  margin-top: 20px;
+}

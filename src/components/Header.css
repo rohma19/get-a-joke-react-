@@ -1,0 +1,11 @@
+
+/* Header styles */
+header {
+  background: #4CAF50; /* Green background */
+  color: white; /* White text */
+  padding: 20px 0; /* Padding top and bottom */
+  text-align: center; /* Centered text */
+  margin-bottom: 20px; /* Margin at the bottom */
+  border-bottom: 5px solid #388E3C; /* Darker green border at the bottom */
+}
+
